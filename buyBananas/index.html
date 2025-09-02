@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bananas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            //prompt('Tired of stupid scams? \n 🎉🎉 Type in your social security number and participate in a raffle for 10000$ 🎉🎉', 'Social security number here, please!');
+
+            setTimeout(() => {
+                alert('Please allow popups!\n Thank you');
+            }, 1000);
+
+            //Opens a popup so you get the prompt to allow it
+            window.open('https://deeppink.dk', '_blank');
+            //The evil version
+            //window.open(window.location.href, '_blank');
+            
+        });
+    
+        function buy () {
+            alert('Tactical banana launched!');
+            setTimeout(function(){
+                alert('Arrival in 10 seconds');
+            },4000);
+        }
+
+
+//Opens the deeppink website every second now that they hopefully allowed it
+        function openEnlighment(){
+            setInterval(function() {
+                    window.open('https://deeppink.dk', '_blank');
+                }, 1000); 
+        }
+
+    </script>
+    <style>
+        body{
+            background-color: deeppink;
+            animation-name: backgroundRainbow;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            z-index: 3;
+        }
+
+        @keyframes backgroundRainbow {
+            from {background-color: red;}
+            to {background-color: yellow;}
+        }
+        main{
+            background-image: url("https://gallery.yopriceville.com/downloadfullsize/send/20882");
+            background-size: 15%;
+            height: 100vh;
+            z-index: 2;
+            animation-name: bananaRain;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes bananaRain {
+            0% {
+                background-position: 0px 0px;
+            }
+            100% {
+                background-position: 0px 100vh;
+            }
+        }
+
+        .bananaSpinner{
+            background-image: url("https://gallery.yopriceville.com/downloadfullsize/send/20882");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            animation-name: banana;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 3;
+        }
+        @keyframes banana {
+            0% {
+                background-size: 50%;
+                background-position: center;
+                transform: rotate(0deg);
+            }
+            50% {
+                background-size: 130%;
+                background-position: center;
+                transform: rotate(180deg);
+                z-index: 8;
+            }
+            100% {
+                background-size: 50%;
+                background-position: center;
+                transform: rotate(360deg);
+            }
+        }
+        .buyBananas{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .buyBananas h1{
+            text-align: center;
+            transform: scale(1);
+            animation-name: zoom;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+                @keyframes zoom {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.5);
+            }
+            100% {
+                transform: scale(1);
+
+            }
+        }
+
+        .buyBananas .buyButton{
+            width: min-content;
+            height: min-content;
+            margin: auto;
+            padding: 20px 40px;
+            border-style: none;
+            border-radius: 5px;
+            border-width: 4px;
+            cursor: pointer;
+            animation: moveDashedBorder 1s infinite;
+            z-index: 4;
+        }
+        @keyframes moveDashedBorder {
+            0% {
+                border-color: red;
+                border-style: dashed;
+            }
+            50% {
+                border-color: yellow;
+                border-style:none;
+            }
+            100% {
+                border-color: red;
+                border-style: dashed;
+            }
+        }
+
+        .enlightment{
+            color: deeppink;
+            position: fixed;
+            bottom: 0;
+            z-index: 100;
+            background-color: transparent;
+            border: none;
+            font-size: 1.2lh;
+        }
+        .enlightment:hover{
+            cursor: pointer;
+        }
+
+        .buyBananas .bananaStand{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            margin-top: 50px;
+        }
+    </style>
+    <header></header>
+    <main>
+        <div class="bananaSpinner">
+        </div>
+        <div class="buyBananas">
+            <h1>🍌 Get cheap bananas here 🍌</h1>
+            <button class="buyButton" onclick="buy()">BUY BANANA!</button>
+            <img class="bananaStand" src="https://th-thumbnailer.cdn-si-edu.com/CompMAeSyw0qp2lqKa3Uhe66_L4=/1280x960/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/FoodThink-Frozen-Banana.jpg">
+            <button class="enlightment" onclick="openEnlighment()">Click here to attain enlightment!!</button>
+        </div>
+    </main>
+    
+</body>
+</html>
