@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hilsen Side</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hilsen Side</h1>
+    
+    <!-- Del A: Vis hilsen baseret på navn i URL -->
+    <div>
+        <h2>Se din personlige hilsen:</h2>
+        <p>Gå til: <a href=" /hilsen/Anna">localhost:3000/hilsen/Anna</a></p>
+        <p>Eller prøv: <a href=" /hilsen/Lars">localhost:3000/hilsen/Lars</a></p>
+    </div><!-- Del B: Søg efter hilsner med query parametre -->
+    <div>
+        <h2>Søg efter hilsner:</h2>
+        <a href=" /hilsner?type=venlig">Venlige hilsner</a> | 
+        <a href=" /hilsner?type=sjov">Sjove hilsner</a>
+    </div><!-- Del C: Send ny hilsen med POST -->
+    <div>
+        <h2>Send en ny hilsen:</h2>
+        <form action=" /send" method="POST">
+            <input type="text"name="navn"placeholder="Dit navn" required>
+            <br><br>
+            <textarea name="besked" placeholder="Din hilsen" required></textarea>
+            <br><br>
+            <button type="submit">Send hilsen</button>
+        </form>
+    </div>
+</body>
+
+</html>
