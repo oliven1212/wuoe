@@ -1,0 +1,11 @@
+<h1>Total products: {{ totalProducts }}</h1>
+
+{{#each products}}
+    <p>Id: {{this.id}} | Name: {{this.name}} | Price: {{this.price}}</p>
+    {{#if this.inStock}}
+        <p>InStock: Yes</p>
+        {{else}}
+        <p>InStock: No</p>
+    {{/if}}
+
+{{/each}}
