@@ -1,15 +1,18 @@
 <h1>{{title}}</h1>
 
-<!-- TODO: Lav en form (ligesom create, men...) -->
-
-<!-- method="POST" action="/books/{{book.id}}/update" -->
-
-<!-- Input felter skal have value="{{book.title}}" osv. -->
-
-<!-- 2 knapper: -->
-
-<!-- 1. Submit: "Gem Ændringer" -->
-
-<!-- 2. Link tilbage: "Annuller" -->
-
-<!-- DIN KODE HER --> 
+<form method="POST" action="/books/{{book.id}}/update">
+    <div>
+        <label for="title">Titel:</label>
+        <input type="text" id="title" name="title" value="{{book.title}}" required>
+    </div>
+    <div>
+        <label for="author">Forfatter:</label>
+        <input type="text" id="author" name="author" value="{{book.author}}" required>
+    </div>
+    <div>
+        <label for="year">Udgivelsesår:</label>
+        <input type="number" id="year" name="year" value="{{book.year}}" required>
+    </div>
+    <button type="submit">Gem Ændringer</button>
+    <a href="/books/{{book.id}}"><button type="button">Annuller</button></a>
+</form>

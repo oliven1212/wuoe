@@ -12,13 +12,25 @@ let nextId = 4;
 const getAll = () => {
   return books;
 }
+
+const getBySearch = (searchTerm) => {
+  return books.filter(book => book.title.toLowerCase().includes(searchTerm.toLowerCase()) || book.author.toLowerCase().includes(searchTerm.toLowerCase()));
+}
+
 const findById = (id) => {
   return books.find(book => book.id === id);
 }
-const create = (title, author, year) => {
-  const newBook = { id: nextId++, title, author, year };
+const create = (bookData) => {
+  if(bookData.title.length <= 2){
+    return {error: 'Title must be longer than 2 characters'};
+  }
+  if(bookData.year < 1000 || bookData.year >= new Date().getFullYear()){
+    return {error: 'Year must be a valid year'};
+  }
+
+  const newBook = { id: nextId++, title: bookData.title, author: bookData.author, year: bookData.year };
   books.push(newBook);
-  return newBook;
+  return {book: newBook};
 }
 const update = (id, bookData) => {
     const index = books.findIndex(book => book.id === id);
@@ -37,6 +49,7 @@ const remove = (id) => {
 
 module.exports = {
     getAll,
+    getBySearch,
     findById,
     create,
     update,

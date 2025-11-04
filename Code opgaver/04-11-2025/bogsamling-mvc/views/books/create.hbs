@@ -1,19 +1,19 @@
 <h1>{{title}}</h1>
-
-<!-- TODO: Lav en form -->
-
-<!-- method="POST" action="/books" -->
-
-<!-- 3 input felter: -->
-
-<!-- 1. title (text, required) -->
-
-<!-- 2. author (text, required) -->
-
-<!-- 3. year (number, required) -->
-
-<!-- Submit knap: "Gem Bog" -->
-
-<!-- Husk: Hvert input skal have name="" attribut! -->
-
-<!-- DIN KODE HER --> 
+{{#if error}}
+    <h3>ERROR: {{error}}</h3>
+{{/if}}
+<form method="POST" action="/books">
+    <div>
+        <label for="title">Titel:</label>
+        <input type="text" id="title" name="title" value="{{bookData.title}}" required>
+    </div>
+    <div>
+        <label for="author">Forfatter:</label>
+        <input type="text" id="author" name="author" value="{{bookData.author}}" required>
+    </div>
+    <div>
+        <label for="year">Udgivelsesår:</label>
+        <input type="number" id="year" name="year" value="{{bookData.year}}" required>
+    </div>
+    <button type="submit">Gem Bog</button>
+</form>
