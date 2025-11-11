@@ -2,7 +2,7 @@
 {{#if error}}
     <h3>ERROR: {{error}}</h3>
 {{/if}}
-<form method="POST" action="/books">
+<form method="POST" action="/books" enctype="multipart/form-data">
     <div>
         <label for="title">Titel:</label>
         <input type="text" id="title" name="title" value="{{bookData.title}}" required>
@@ -14,6 +14,10 @@
     <div>
         <label for="year">Udgivelsesår:</label>
         <input type="number" id="year" name="year" value="{{bookData.year}}" required>
+    </div>
+    <div>
+        <label for="image">Upload image</label>
+        <input type="file" id="image" name="image" >
     </div>
     <button type="submit">Gem Bog</button>
 </form>

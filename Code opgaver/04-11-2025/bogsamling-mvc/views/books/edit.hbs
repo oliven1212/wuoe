@@ -1,6 +1,6 @@
 <h1>{{title}}</h1>
 
-<form method="POST" action="/books/{{book.id}}/update">
+<form method="POST" action="/books/{{book.id}}/update" enctype="multipart/form-data">
     <div>
         <label for="title">Titel:</label>
         <input type="text" id="title" name="title" value="{{book.title}}" required>
@@ -12,6 +12,10 @@
     <div>
         <label for="year">Udgivelsesår:</label>
         <input type="number" id="year" name="year" value="{{book.year}}" required>
+    </div>
+    <div>
+        <label for="image">Upload image</label>
+        <input type="file" id="image" name="image" >
     </div>
     <button type="submit">Gem Ændringer</button>
     <a href="/books/{{book.id}}"><button type="button">Annuller</button></a>

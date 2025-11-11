@@ -1,5 +1,6 @@
 const Book  = require('../models/Books'); 
 
+
 exports.getAllBooks = (req, res) => {
     if(req.query.q){
         searchBooks(req, res);
@@ -34,7 +35,12 @@ exports.showCreateForm = (req, res) => {
 res.render("books/create",{});
 }; 
 exports.createBook = (req, res) => {
-    const createBook = Book.create({title: req.body.title, author: req.body.author, year: parseInt(req.body.year)});
+    console.log('Uploaded file:', req.file);
+    const createBook = Book.create({
+        title: req.body.title, 
+        author: req.body.author, 
+        year: parseInt(req.body.year), 
+        image:req.file });
     if(createBook.error){
         console.log(createBook.error);
         res.render("books/create",{
@@ -62,7 +68,8 @@ exports.updateBook = (req, res) => {
     Book.update(parseInt(req.params.id), {
         title: req.body.title,
         author: req.body.author,
-        year: parseInt(req.body.year)
+        year: parseInt(req.body.year), 
+        image:req.file
     });
     res.redirect('/books/' + req.params.id);
 };

@@ -9,6 +9,9 @@
         <h2><a href="/books/{{this.id}}">{{this.title}}</a></h2>
         <p>Forfatter: {{this.author}}</p>
         <p>Udgivelsesår: {{this.year}}</p>
+        {{#if this.image}}
+            <p>ImageName: {{this.image.filename}}</p>
+        {{/if}}
     </div>
     <div>_______________________________________________________________</div>
 {{/each}}

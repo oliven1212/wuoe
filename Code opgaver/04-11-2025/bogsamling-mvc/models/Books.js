@@ -28,14 +28,25 @@ const create = (bookData) => {
     return {error: 'Year must be a valid year'};
   }
 
-  const newBook = { id: nextId++, title: bookData.title, author: bookData.author, year: bookData.year };
+  const newBook = { 
+    id: nextId++, 
+    title: bookData.title, 
+    author: bookData.author, 
+    year: bookData.year, image: 
+    bookData.image || null};
   books.push(newBook);
   return {book: newBook};
 }
 const update = (id, bookData) => {
     const index = books.findIndex(book => book.id === id);
     if (index !== -1) {
-        books[index] = { id:books[index].id, title: bookData.title, author: bookData.author, year: bookData.year};
+        books[index] = { 
+          id:books[index].id, 
+          title: bookData.title, 
+          author: bookData.author, 
+          year: bookData.year,
+          image: bookData.image || books[index].image
+        };
     }
     return books[index];
 }
