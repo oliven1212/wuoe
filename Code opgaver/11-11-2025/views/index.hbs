@@ -1,4 +1,8 @@
+{{#if filename}}
+    <h2>Uploaded Image:</h2>
+    <img src="/kitten/{{this.filename}}" />
+{{/if}}
 <form action="/upload" method="post" enctype="multipart/form-data">
-    Image: <input type="file" name="image" id="image">
+    Image: <input type="file" name="image" id="image" accept="image/*" />
     <button type="submit">Upload image</button>
 </form>

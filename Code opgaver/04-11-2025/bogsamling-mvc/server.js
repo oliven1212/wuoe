@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
-
+app.use('/bookImages', express.static(path.join(__dirname, 'bookImages')));
 
 // View engine
 app.engine(".hbs", engine({ extname: ".hbs" }));

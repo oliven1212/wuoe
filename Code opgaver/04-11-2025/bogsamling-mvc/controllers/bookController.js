@@ -40,7 +40,8 @@ exports.createBook = (req, res) => {
         title: req.body.title, 
         author: req.body.author, 
         year: parseInt(req.body.year), 
-        image:req.file });
+        image:req.file || null
+    });
     if(createBook.error){
         console.log(createBook.error);
         res.render("books/create",{

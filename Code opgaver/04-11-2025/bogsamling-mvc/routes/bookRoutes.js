@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const multer = require('multer');
-const upload = multer({ dest: 'bookImages/' });
+const upload = require('../multer'); //import multer configuration
 
 const bookController = require("../controllers/bookController");
 

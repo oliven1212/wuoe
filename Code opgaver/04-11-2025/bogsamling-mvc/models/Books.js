@@ -1,10 +1,10 @@
 let books = [
 
-{ id: 1, title: 'Harry Potter og De Vises Sten', author: 'J.K. Rowling', year: 1997 },
+{ id: 1, title: 'Harry Potter og De Vises Sten', author: 'J.K. Rowling', year: 1997,image: null },
 
-{ id: 2, title: '1984', author: 'George Orwell', year: 1949 },
+{ id: 2, title: '1984', author: 'George Orwell', year: 1949, image: null },
 
-{ id: 3, title: 'Ringenes Herre', author: 'J.R.R. Tolkien', year: 1954 }
+{ id: 3, title: 'Ringenes Herre', author: 'J.R.R. Tolkien', year: 1954, image: null }
 
 ]; 
 let nextId = 4; 
