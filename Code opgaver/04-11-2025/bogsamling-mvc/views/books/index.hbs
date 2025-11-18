@@ -3,7 +3,7 @@
     <input type="text" name="q" placeholder="Søg efter titel eller forfatter">
     <button type="submit">Søg</button>
 </form>
-
+{{#if books}}
 {{#each books}}
     <div class="book-card">
         <h2><a href="/books/{{this.id}}">{{this.title}}</a></h2>
@@ -16,3 +16,14 @@
     </div>
     <div>_______________________________________________________________</div>
 {{/each}}
+{{/if}}
+{{#each tempImages}}
+    <img src="/bookImages/{{this}}" height="100" />
+{{/each}}
+<form method="POST" action="/books/tempimages" enctype="multipart/form-data">
+    <div>
+        <label for="image">Upload image</label>
+        <input type="file" id="image" name="image" accept="image/*" multiple>
+    </div>
+    <button type="submit">Gem</button>
+</form>

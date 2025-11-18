@@ -1,4 +1,5 @@
 const Book  = require('../models/Books'); 
+const upload = require('../multer');
 
 
 exports.getAllBooks = (req, res) => {
@@ -79,3 +80,15 @@ exports.deleteBook = (req, res) => {
     Book.remove(parseInt(req.params.id));
     res.redirect('/books');
 }; 
+
+
+
+exports.tempImages = (req, res) => {
+    const images = req.files.map((file) => {
+        console.log(`_________________${file.filename}`);
+        return file.filename
+    });
+    res.render("books/index",{
+        tempImages: images,
+    });
+}
