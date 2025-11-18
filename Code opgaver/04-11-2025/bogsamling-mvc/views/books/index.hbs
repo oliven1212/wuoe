@@ -17,9 +17,13 @@
     <div>_______________________________________________________________</div>
 {{/each}}
 {{/if}}
+
+
+{{#if tempImages}}
 {{#each tempImages}}
     <img src="/bookImages/{{this}}" height="100" />
 {{/each}}
+{{/if}}
 <form method="POST" action="/books/tempimages" enctype="multipart/form-data">
     <div>
         <label for="image">Upload image</label>

@@ -84,8 +84,8 @@ exports.deleteBook = (req, res) => {
 
 
 exports.tempImages = (req, res) => {
+    //maps the images to just their filenames
     const images = req.files.map((file) => {
-        console.log(`_________________${file.filename}`);
         return file.filename
     });
     res.render("books/index",{
