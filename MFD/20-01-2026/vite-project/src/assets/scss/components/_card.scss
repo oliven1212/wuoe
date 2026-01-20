@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as v;
+
+.card {
+    background: #f5f5f5;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: orange;
+    &__header{
+
+    }
+
+    &:hover {
+        background: green;
+    }
+
+    &--alt-hover {
+        &:hover {
+            background: v.$color-primary;
+        }
+    }
+ }

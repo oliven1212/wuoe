@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as v;
+
+.productStarRating{
+    display: flex;
+    flex-direction: row;
+    &__star{
+        fill: transparent;
+        stroke: darkgray;
+        &--filled{
+            fill: v.$color-primary;
+        }
+    }
+}

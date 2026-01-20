@@ -1,0 +1,12 @@
+@use './abstracts/variables' as v;
+@use './components/productCard';
+@use './components/productSlider';
+@use './components/productStarRating';
+
+:root{
+  color-scheme: dark light;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
