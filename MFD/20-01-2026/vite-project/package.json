@@ -5,10 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint ./src --ext .js",
+    "lint:watch":"nodemon --watch ./src --ext js --exec \"npm run lint\"",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^9.39.2",
+    "@eslint/json": "^0.14.0",
+    "@eslint/markdown": "^7.5.1",
+    "eslint": "^9.39.2",
+    "globals": "^17.1.0",
+    "nodemon": "^3.1.11",
     "vite": "^7.2.4"
   },
   "dependencies": {
