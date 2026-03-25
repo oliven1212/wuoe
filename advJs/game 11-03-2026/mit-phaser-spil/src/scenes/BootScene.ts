@@ -23,6 +23,11 @@ export class BootScene extends Phaser.Scene {
     spacing: 2,       // ← 0 hvis ingen mellemrum
     margin: 0,
   });
+
+  // ─── Lyde ────────────────────────────────────────────────────
+  this.load.audio("coin",  "assets/audio/ribhavagrawal-coin-recieved-230517.mp3");
+  this.load.audio("hurt",  "assets/audio/freesound_community-male_hurt7-48124.mp3");
+  this.load.audio("music", "assets/audio/PixelHeartLoop.mp3");
   }
   create(): void {
     this.scene.start("MenuScene");
