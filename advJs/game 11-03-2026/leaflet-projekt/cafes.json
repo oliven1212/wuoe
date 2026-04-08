@@ -1,0 +1,2624 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-08T09:07:11Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 310586701,
+  "lat": 55.3963313,
+  "lon": 10.3860015,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "80510",
+    "internet_access": "wlan",
+    "name": "Cafe Kræz",
+    "opening_hours": "Mo-We 10:00-01:00,Th-Sa 10:00-03:00, Su 10:00-01:00",
+    "ref:DK:cvr": "26249961",
+    "ref:DK:cvr:pnummer": "1023898345",
+    "website": "https://kraez.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 310588871,
+  "lat": 55.3945844,
+  "lon": 10.3835195,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-06",
+    "fvst:navnelbnr": "83810",
+    "name": "Froggys Cafe",
+    "opening_hours": "Mo-We 09:00-24:00, Th 09:00-02:00, Fr-Sa 09:30-05:00, Su 09:30-24:00",
+    "ref:DK:cvr": "32438660",
+    "ref:DK:cvr:pnummer": "1015468889"
+  }
+},
+{
+  "type": "node",
+  "id": 649162086,
+  "lat": 55.3958477,
+  "lon": 10.3864887,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Odense",
+    "brand": "Joe & The Juice",
+    "brand:wikidata": "Q26221514",
+    "brand:wikipedia": "en:Joe & The Juice",
+    "check_date": "2025-09-27",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "82667",
+    "name": "Joe & The Juice",
+    "opening_hours": "10:00-20:00; Dec 24 off; Dec 31 off",
+    "ref:DK:cvr": "26589355",
+    "ref:DK:cvr:pnummer": "1017511234",
+    "takeaway": "yes",
+    "website": "https://www.joejuice.com/stores/"
+  }
+},
+{
+  "type": "node",
+  "id": 653352566,
+  "lat": 55.3968656,
+  "lon": 10.3956418,
+  "tags": {
+    "amenity": "cafe",
+    "description": "The organization and bar for LGBTQ+ in Odense.",
+    "fvst:navnelbnr": "83478",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Lambda - LGBTQ+ på Fyn",
+    "opening_hours": "Th 18:00-24:00; Fr-Sa 20:00-02:00",
+    "outdoor_seating": "no",
+    "phone": "+45 32126245",
+    "ref:DK:cvr": "17247581",
+    "ref:DK:cvr:pnummer": "1005875667",
+    "website": "https://www.lambda.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 762154909,
+  "lat": 55.3945744,
+  "lon": 10.3819874,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-06",
+    "fvst:navnelbnr": "673024",
+    "indoor_seating": "yes",
+    "name": "Cafe Cuckoo's Nest",
+    "opening_hours": "Mo-We 9:00-24:00, Th-Sa 09:00-02:00, Su 10:00-23:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "38217933",
+    "ref:DK:cvr:pnummer": "1021965517",
+    "website": "https://cuckoos.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 773721025,
+  "lat": 55.3950074,
+  "lon": 10.3814631,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "burger;tapas;brunch",
+    "fvst:navnelbnr": "520608",
+    "indoor_seating": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Café Chino",
+    "opening_hours": "Mo-Tu 09:00-20:00, We-Th 09:00-21:00, Fr-Sa 09:00-23:00, Su 09:00-16:00",
+    "outdoor_seating": "yes",
+    "phone": "+4563130033",
+    "ref:DK:cvr": "34904103",
+    "ref:DK:cvr:pnummer": "1018192248",
+    "website": "https://cafechino.dk",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1704406669,
+  "lat": 55.3935396,
+  "lon": 10.3876747,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "drink:beer": "no",
+    "drink:wine": "no",
+    "fvst:navnelbnr": "80517",
+    "name": "Café Klosterbakken",
+    "note": "alkoholfrit værested",
+    "opening_hours": "Mo-Fr 14:30-17:30; Su 09:00-12:00",
+    "phone": "+45 60151942",
+    "ref:DK:cvr": "38040855",
+    "ref:DK:cvr:pnummer": "1018689630"
+  }
+},
+{
+  "type": "node",
+  "id": 2662010724,
+  "lat": 55.2705325,
+  "lon": 9.8898123,
+  "tags": {
+    "alt_name": "HPH",
+    "amenity": "cafe",
+    "cuisine": "burger;coffee_shop;regional",
+    "fvst:name": "Cafe HPH",
+    "fvst:navnelbnr": "83105",
+    "name": "Havnegrillen",
+    "opening_hours": "Apr-May 11:00-21:00; Jun 1-Aug 14 11:00-22:00; Aug 15-Sep 30 11:00-21:00; Oct-Mar 11:00-19:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "21583286",
+    "ref:DK:cvr:pnummer": "1014582122"
+  }
+},
+{
+  "type": "node",
+  "id": 2799571001,
+  "lat": 55.3957514,
+  "lon": 10.3801767,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "fvst:navnelbnr": "80246",
+    "name": "Cafe Biografen",
+    "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-22:30; PH 11:00-23:00",
+    "phone": "+45 66131616",
+    "ref:DK:cvr": "54104510",
+    "ref:DK:cvr:pnummer": "1002013486",
+    "toilets:wheelchair": "no",
+    "website": "https://cafebio.dk/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2845525704,
+  "lat": 55.4014467,
+  "lon": 10.3866617,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Espresso House",
+    "brand:wikidata": "Q10489162",
+    "brand:wikipedia": "en:Espresso House",
+    "check_date": "2025-10-17",
+    "cuisine": "coffee_shop",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "654704",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "level": "2",
+    "name": "Espresso House",
+    "opening_hours": "Mo-Fr 05:30-18:30; Sa 06:30-18:00; Su 07:00-18:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "10011663",
+    "ref:DK:cvr:pnummer": "1009077827",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3224806163,
+  "lat": 55.4096429,
+  "lon": 10.3390116,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "fvst:navnelbnr": "122246",
+    "level": "0",
+    "name": "Café Spisehuset Tarup Centret",
+    "opening_hours": "Mo-Th 09:30-19:00; Sa 09:30-16:00; Fr 09:30-19:30",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "phone": "+45 66161877",
+    "ref:DK:cvr": "18541246",
+    "ref:DK:cvr:pnummer": "1016481463",
+    "website": "https://www.cafespisehuset.dk/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3278060385,
+  "lat": 55.3957066,
+  "lon": 10.3811973,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "540169",
+    "name": "Fredo's Coffee Right",
+    "opening_hours": "Tu-Su 09:00-18:00",
+    "phone": "+45 35142014",
+    "ref:DK:cvr": "35206302",
+    "ref:DK:cvr:pnummer": "1018368109",
+    "website": "https://www.fredos.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3828511987,
+  "lat": 55.1375249,
+  "lon": 10.2503877,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "734276",
+    "name": "Cafe Dalkilden",
+    "phone": "+45 61141278",
+    "ref:DK:cvr": "39257149",
+    "ref:DK:cvr:pnummer": "1023261479",
+    "website": "https://www.faaborggolfklub.dk/golfklubben/cafe.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3872063147,
+  "lat": 55.3402420,
+  "lon": 10.1812150,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "burger",
+    "fvst:navnelbnr": "698070",
+    "name": "Cafe Fyrtårn",
+    "ref:DK:cvr": "33495595",
+    "ref:DK:cvr:pnummer": "1016620501",
+    "website": "https://fyrtaarntommerup.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3872063148,
+  "lat": 55.3846974,
+  "lon": 10.1277634,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Cafe Puls - Marianne B. Jensen",
+    "fvst:navnelbnr": "1472445",
+    "name": "Cafe Puls",
+    "phone": "+45 22779334",
+    "ref:DK:cvr": "45220427",
+    "website": "https://www.vissenbjergikc.dk/cafepuls.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3872063152,
+  "lat": 55.3341137,
+  "lon": 9.8902621,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "564762",
+    "name": "Cafe Sandagernæs",
+    "opening_hours": "18:00-19:30; 19:45-21:15",
+    "ref:DK:cvr": "15279478",
+    "ref:DK:cvr:pnummer": "1000894880",
+    "website": "https://www.sandagernaes.dk/index.asp?mode=alm!faciliteter~1158789361!dk"
+  }
+},
+{
+  "type": "node",
+  "id": 3872193182,
+  "lat": 55.2792882,
+  "lon": 10.1079992,
+  "tags": {
+    "alt_name": "Cafe Glamsbjerg",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1411266",
+    "name": "Cafe DetDet",
+    "ref:DK:cvr": "36404078",
+    "ref:DK:cvr:pnummer": "1030251179",
+    "website": "https://detdet.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3874698884,
+  "lat": 55.2486363,
+  "lon": 10.1860614,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "japanese",
+    "fvst:navnelbnr": "82295",
+    "name": "De Japanske Haver",
+    "opening_hours": "May-Sep 10:00-17:00; Jun 01-22 Mo off; Aug 16-Sep 30 Mo off",
+    "ref:DK:cvr": "18475847",
+    "ref:DK:cvr:pnummer": "1005103624",
+    "website": "https://www.dejapanskehaver.dk/cafe/"
+  }
+},
+{
+  "type": "node",
+  "id": 3883622623,
+  "lat": 55.4687870,
+  "lon": 10.1618314,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Veflinge Hallens Cafeteria v/ Laila Clemmensen",
+    "fvst:navnelbnr": "1242189",
+    "name": "Veflinge Hallens Cafeteria",
+    "ref:DK:cvr": "43323695",
+    "ref:DK:cvr:pnummer": "1028330215"
+  }
+},
+{
+  "type": "node",
+  "id": 3883770649,
+  "lat": 55.0917580,
+  "lon": 10.6890675,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "82700",
+    "name": "Damgården Café",
+    "ref:DK:cvr": "29189730",
+    "ref:DK:cvr:pnummer": "1011355230"
+  }
+},
+{
+  "type": "node",
+  "id": 3884030196,
+  "lat": 55.0938200,
+  "lon": 10.2420420,
+  "tags": {
+    "alt_name": "Slagterens Spisehus",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1428638",
+    "name": "Spisehuset",
+    "opening_hours": "We-Su 11:30-15:00,17:00-20:00",
+    "ref:DK:cvr": "30543661",
+    "ref:DK:cvr:pnummer": "1014386153",
+    "shop": "butcher",
+    "website": "http://www.spisehusetfaaborg.dk/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3884049429,
+  "lat": 55.4392585,
+  "lon": 10.6749109,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "sandwich",
+    "diet:vegetarian": "yes",
+    "fvst:name": "Anexet - Cafe Agnes H",
+    "fvst:navnelbnr": "982173",
+    "indoor_seating": "yes",
+    "name": "Agnes H",
+    "opening_hours": "Fr 17:00+; Sa-Su 11:00-17:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "76705453",
+    "ref:DK:cvr:pnummer": "1025857123",
+    "website": "https://www.cafeagnesh.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3884061650,
+  "lat": 55.0669580,
+  "lon": 10.6310460,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Blomster Cafeen af 2017",
+    "fvst:navnelbnr": "718131",
+    "name": "Blomster Cafeen",
+    "note": "for pensioners",
+    "opening_hours": "08:00-14:00",
+    "ref:DK:cvr": "38708759",
+    "ref:DK:cvr:pnummer": "1022521027",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3884103617,
+  "lat": 55.5015180,
+  "lon": 10.6489020,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2022-02-28",
+    "fvst:navnelbnr": "1458447",
+    "name": "Café Kirkeladen",
+    "opening_hours": "Mar-May Mo-Fr 17:00-21:00, Sa-Su 12:00-21:00; Jun-Aug 12:00-21:00; Aug-Dec Th-Fr 17:00-21:00; Sa-Su 12:00-21:00; PH 12:00-21:00",
+    "phone": "+45 60155058",
+    "ref:DK:cvr": "20958294",
+    "ref:DK:cvr:pnummer": "1016101377",
+    "website": "https://cafekirkeladen.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3884131383,
+  "lat": 55.5678680,
+  "lon": 10.0812140,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "ice_cream",
+    "fvst:navnelbnr": "81412",
+    "name": "Juels Café",
+    "opening_hours": "Apr-Sep",
+    "operator": "Birgit Kehlet Pedersen",
+    "outdoor_seating": "yes",
+    "phone": "+45 64811911",
+    "ref:DK:cvr": "26428777",
+    "ref:DK:cvr:pnummer": "1008900457",
+    "website": "https://www.juelscafe.dk/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3884131388,
+  "lat": 55.5274440,
+  "lon": 10.0744970,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/kunstgaarden",
+    "fvst:name": "Kunstgården",
+    "name": "Kunstgården i Skovby Cafe",
+    "phone": "+45 64811630",
+    "ref:DK:cvr": "29706166",
+    "ref:DK:cvr:pnummer": "1000821957",
+    "website": "https://kunst-gaarden.dk/kunstgarden/cafeen"
+  }
+},
+{
+  "type": "node",
+  "id": 3884848326,
+  "lat": 55.3464174,
+  "lon": 10.4067203,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "79064",
+    "name": "Orifarm Group A/S",
+    "private": "employees",
+    "ref:DK:cvr": "27347282",
+    "ref:DK:cvr:pnummer": "1006455790",
+    "website": "https://www.orifarm.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3884889396,
+  "lat": 55.4359192,
+  "lon": 10.4078692,
+  "tags": {
+    "access": "customers",
+    "alt_name": "STIGE HALLEN",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1247318",
+    "name": "Stigehallens Cafeteria",
+    "ref:DK:cvr": "50345211",
+    "ref:DK:cvr:pnummer": "1001946376"
+  }
+},
+{
+  "type": "node",
+  "id": 3888473611,
+  "lat": 55.3751990,
+  "lon": 10.3267060,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "burger",
+    "fvst:name": "Odense Eventyr Golf Cafe og Restaurant",
+    "fvst:navnelbnr": "934884",
+    "name": "Odense Eventyrgolf Restaurant",
+    "ref:DK:cvr": "35515070",
+    "ref:DK:cvr:pnummer": "1025486257"
+  }
+},
+{
+  "type": "node",
+  "id": 3888556460,
+  "lat": 55.3972850,
+  "lon": 10.3916820,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-03-23",
+    "contact:facebook": "https://www.facebook.com/nellesbar/",
+    "contact:instagram": "https://www.instagram.com/nellesbar",
+    "cuisine": "sandwich",
+    "email": "info@nellesbar.dk",
+    "fvst:navnelbnr": "547169",
+    "name": "Nelles Coffee & Wine",
+    "opening_hours": "Mo-Sa 07:00-21:00; Su 10:00-16:00",
+    "outdoor_seating": "yes",
+    "phone": "+45 88973000",
+    "ref:DK:cvr": "34729700",
+    "ref:DK:cvr:pnummer": "1019439395",
+    "website": "https://www.nellesbar.dk/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3902457532,
+  "lat": 55.2403206,
+  "lon": 9.9772598,
+  "tags": {
+    "alt_name": "Ebberup Hallens Cafeteria / Pizzaria",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1419996",
+    "name": "Ebberup Hallernes Cafeteria",
+    "ref:DK:cvr": "39088428"
+  }
+},
+{
+  "type": "node",
+  "id": 3904505374,
+  "lat": 55.4010698,
+  "lon": 10.3992922,
+  "tags": {
+    "alt_name": "Sportscafeen",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "906860",
+    "name": "Sportscafeen Stjernen",
+    "phone": "+45 31107042",
+    "ref:DK:cvr": "28035713",
+    "ref:DK:cvr:pnummer": "1001623613"
+  }
+},
+{
+  "type": "node",
+  "id": 3905669692,
+  "lat": 55.3963750,
+  "lon": 10.3855550,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "fvst:navnelbnr": "79842",
+    "name": "Café Skt. Gertrud",
+    "opening_hours": "Mo-We 09:00-01:00, Th 09:00-02:00, Fr-Sa 09:00-03:00, Su 10:00-24:00, PH 10:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+45 65913302",
+    "ref:DK:cvr": "25298292",
+    "ref:DK:cvr:pnummer": "1002943187",
+    "website": "https://www.gertruds.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 3905766533,
+  "lat": 55.3976668,
+  "lon": 10.3904160,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "italian",
+    "fvst:navnelbnr": "521095",
+    "name": "La Dolche Vita Fashion Café",
+    "phone": "+45 71720780",
+    "ref:DK:cvr": "34897662",
+    "ref:DK:cvr:pnummer": "1018165984",
+    "source": "Kaart Ground Survey 2017",
+    "website": "http://ladolcevitafashioncafe.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3928398466,
+  "lat": 55.3850608,
+  "lon": 10.4265595,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "drive_through": "no",
+    "fvst:name": "Cafe Victoria Rosengårdscentret, butik 189",
+    "fvst:navnelbnr": "79568",
+    "level": "0",
+    "name": "Café Victoria",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "outdoor_seating": "no",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref": "190",
+    "ref:DK:cvr": "29240523",
+    "ref:DK:cvr:pnummer": "1011950430",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3928398470,
+  "lat": 55.3836908,
+  "lon": 10.4260213,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "brand": "Espresso House",
+    "brand:wikidata": "Q10489162",
+    "brand:wikipedia": "en:Espresso House",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "554694",
+    "level": "0",
+    "name": "Espresso House",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:30-18:00; Su 09:30-17:30",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref:DK:cvr": "10011663",
+    "ref:DK:cvr:pnummer": "1018569538",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3980784057,
+  "lat": 55.4086944,
+  "lon": 10.4271510,
+  "tags": {
+    "access": "customers",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1477835",
+    "name": "Mulerposen",
+    "opening_hours": "07:45 -14:30; Fr 07:45-14:00",
+    "ref:DK:cvr": "29547726",
+    "ref:DK:cvr:pnummer": "1003309394",
+    "website": "https://mulerne-gym.dk/om-mulerne/kantinen"
+  }
+},
+{
+  "type": "node",
+  "id": 4039782461,
+  "lat": 55.4015715,
+  "lon": 10.3867087,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Odense Banegård",
+    "brand": "Joe & The Juice",
+    "brand:wikidata": "Q26221514",
+    "brand:wikipedia": "en:Joe & The Juice",
+    "check_date:opening_hours": "2026-01-20",
+    "cuisine": "coffee_shop",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "572482",
+    "level": "2",
+    "name": "Joe & The Juice",
+    "opening_hours:signed": "no",
+    "ref:DK:cvr": "26589355",
+    "ref:DK:cvr:pnummer": "1020783466",
+    "smoking": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4072694154,
+  "lat": 55.5648120,
+  "lon": 10.0924360,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1431011",
+    "name": "Cafe Solo",
+    "opening_hours": "Mo-Sa 11:00-22:00",
+    "ref:DK:cvr": "44566036",
+    "ref:DK:cvr:pnummer": "1030009564",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4111995804,
+  "lat": 55.4486262,
+  "lon": 10.6579670,
+  "tags": {
+    "amenity": "cafe",
+    "bike_friend": "yes",
+    "check_date": "2025-06-13",
+    "check_date:opening_hours": "2025-06-13",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "635461",
+    "indoor_seating": "yes",
+    "name": "Lulus Cafe & Boutique",
+    "opening_hours": "Mo,We-Fr 10:00-17:30; Sa 10:00-17:00; Su 11:00-17:00; Tu off",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "37407992",
+    "ref:DK:cvr:pnummer": "1021104554"
+  }
+},
+{
+  "type": "node",
+  "id": 4111995806,
+  "lat": 55.5655408,
+  "lon": 10.0909705,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "576144",
+    "name": "Cafe Onkel",
+    "opening_hours": "PH,Mo-Su 09:30-20:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "18310805",
+    "ref:DK:cvr:pnummer": "1004075148"
+  }
+},
+{
+  "type": "node",
+  "id": 4394706527,
+  "lat": 55.3982590,
+  "lon": 10.3882100,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-04-17",
+    "contact:facebook": "https://www.facebook.com/cafefleuriodense/",
+    "contact:instagram": "https://www.instagram.com/cafefleuriodense",
+    "cuisine": "tapas;dessert;sandwich",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "info@cafefleuri.dk",
+    "fvst:navnelbnr": "1112429",
+    "name": "Cafe Fleuri",
+    "opening_hours": "Mo-We 09:00-17:30; Th-Sa 09:00-21:00; Su 09:00-16:00",
+    "outdoor_seating": "yes",
+    "phone": "+45 23639330",
+    "ref:DK:cvr": "40796576",
+    "ref:DK:cvr:pnummer": "1025049531",
+    "reservation": "yes",
+    "website": "https://cafefleuri.dk/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4402465260,
+  "lat": 55.3959651,
+  "lon": 10.3830965,
+  "tags": {
+    "amenity": "cafe",
+    "email": "kontakt@mrtorp.dk",
+    "fvst:navnelbnr": "1484180",
+    "name": "Mr. Torp",
+    "phone": "+45 40121593",
+    "ref:DK:cvr": "38863738",
+    "ref:DK:cvr:pnummer": "1022756628",
+    "website": "https://mrtorp.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4402746201,
+  "lat": 55.3946130,
+  "lon": 10.3863930,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-15",
+    "club": "board_games",
+    "fvst:navnelbnr": "645643",
+    "indoor_seating": "yes",
+    "name": "Papas Papbar",
+    "opening_hours": "13:00-23:00,Su 12:00-23:00,Fr 13:00-01:00, Sa 12:00-01:00,Mo off",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "37440272",
+    "ref:DK:cvr:pnummer": "1021143029",
+    "smoking": "no",
+    "website": "https://papbar.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4408094073,
+  "lat": 55.3952840,
+  "lon": 10.3827060,
+  "tags": {
+    "amenity": "cafe",
+    "delivery": "yes",
+    "delivery:partner": "Wolt;Just Eat",
+    "delivery:partner:wikidata": "Q30024526;Q6315697",
+    "fvst:navnelbnr": "1453879",
+    "name": "Cafe Marcellos Odense",
+    "phone": "+45 66121246",
+    "ref:DK:cvr": "38217933",
+    "ref:DK:cvr:pnummer": "1029952244",
+    "website": "https://marcellos.dk/odense"
+  }
+},
+{
+  "type": "node",
+  "id": 4437777533,
+  "lat": 55.0973347,
+  "lon": 10.6942010,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "559579",
+    "name": "Kultur cafe",
+    "ref:DK:cvr": "28864515",
+    "ref:DK:cvr:pnummer": "1017090115"
+  }
+},
+{
+  "type": "node",
+  "id": 4437852479,
+  "lat": 55.0876806,
+  "lon": 10.6201502,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "573474",
+    "name": "Tved Hallens Cafeteria",
+    "ref:DK:cvr": "32710093",
+    "ref:DK:cvr:pnummer": "1020830898"
+  }
+},
+{
+  "type": "node",
+  "id": 4441443965,
+  "lat": 55.0637827,
+  "lon": 10.6071866,
+  "tags": {
+    "amenity": "cafe",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "81006",
+    "name": "Naturama Café",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "ref:DK:cvr": "31723876",
+    "ref:DK:cvr:pnummer": "1014861250"
+  }
+},
+{
+  "type": "node",
+  "id": 4441853752,
+  "lat": 55.5078698,
+  "lon": 10.7110244,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "935546",
+    "name": "Pool Cafeen"
+  }
+},
+{
+  "type": "node",
+  "id": 4462466480,
+  "lat": 55.3437100,
+  "lon": 10.1655639,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "80654",
+    "name": "Lilleskov Teglværks Café",
+    "ref:DK:cvr": "11454836",
+    "ref:DK:cvr:pnummer": "1000237531"
+  }
+},
+{
+  "type": "node",
+  "id": 4530674808,
+  "lat": 55.3838017,
+  "lon": 10.4262457,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "brand": "Joe & The Juice",
+    "brand:wikidata": "Q26221514",
+    "brand:wikipedia": "en:Joe & The Juice",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "661716",
+    "level": "0",
+    "name": "Joe & The Juice",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa,Su 10:00-17:00",
+    "outdoor_seating": "no",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref:DK:cvr": "26589355",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4565468344,
+  "lat": 55.3083194,
+  "lon": 10.4901870,
+  "tags": {
+    "amenity": "cafe",
+    "club": "sport",
+    "fvst:navnelbnr": "128954",
+    "name": "Årslev Boldklub Cafeteria",
+    "phone": "+45 22550624",
+    "ref:DK:cvr": "33660367",
+    "ref:DK:cvr:pnummer": "1016904720",
+    "sport": "soccer",
+    "website": "https://www.aarslevboldklub.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4565604666,
+  "lat": 55.0650106,
+  "lon": 10.6137182,
+  "tags": {
+    "amenity": "cafe",
+    "diet:vegetarian": "yes",
+    "facebook": "https://www.facebook.com/cafepanino/",
+    "fvst:navnelbnr": "668846",
+    "name": "Cafe Panino",
+    "ref:DK:cvr": "31443687",
+    "ref:DK:cvr:pnummer": "1021921455",
+    "website": "https://cafepanino.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4580514567,
+  "lat": 55.4493130,
+  "lon": 10.3183930,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Allesøhallens Cafeteria og Hal",
+    "fvst:navnelbnr": "80794",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Allesøhallens Cafeteria",
+    "outdoor_seating": "no",
+    "ref:DK:cvr": "28626274",
+    "ref:DK:cvr:pnummer": "1011605725"
+  }
+},
+{
+  "type": "node",
+  "id": 4593377266,
+  "lat": 55.0784969,
+  "lon": 10.6982008,
+  "tags": {
+    "amenity": "cafe",
+    "bike_friend": "yes",
+    "drink:wine": "retail",
+    "fvst:navnelbnr": "1394088",
+    "name": "Skaarupøre Vingård",
+    "phone": "+45 61260368",
+    "ref:DK:cvr": "44339897",
+    "ref:DK:cvr:pnummer": "1029699808",
+    "shop": "alcohol",
+    "website": "https://skaaruporevin.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4606257802,
+  "lat": 55.0941402,
+  "lon": 10.2451284,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "734125",
+    "name": "Soze kaffebar & Risteri",
+    "opening_hours": "10:00-20:00",
+    "phone": "+45 35140004",
+    "ref:DK:cvr": "39256266",
+    "ref:DK:cvr:pnummer": "1023258087",
+    "website": "https://www.sozekaffe.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 4728388760,
+  "lat": 55.3869335,
+  "lon": 10.4064035,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:name": "Plejecenter Havebæk Cafe",
+    "fvst:navnelbnr": "80670",
+    "name": "Plejecenter Havebæk",
+    "private": "residents",
+    "ref:DK:cvr": "35209115",
+    "ref:DK:cvr:pnummer": "1009001243"
+  }
+},
+{
+  "type": "node",
+  "id": 4737256421,
+  "lat": 55.3943780,
+  "lon": 10.3832320,
+  "tags": {
+    "amenity": "cafe",
+    "contact:website": "https://cafekosmos.dk",
+    "diet:vegan": "yes",
+    "fvst:navnelbnr": "699668",
+    "name": "Café Kosmos",
+    "opening_hours": "Tu-Th 12:00-20:00; Fr,Sa 12:00-21:00",
+    "phone": "+45 25 11 31 23",
+    "ref:DK:cvr": "38166956",
+    "ref:DK:cvr:pnummer": "1021906510"
+  }
+},
+{
+  "type": "node",
+  "id": 4823363943,
+  "lat": 55.3960270,
+  "lon": 10.3885740,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "80210",
+    "name": "Cafe Rådhuset",
+    "ref:DK:cvr": "35209115",
+    "ref:DK:cvr:pnummer": "1003315009"
+  }
+},
+{
+  "type": "node",
+  "id": 4874626906,
+  "lat": 55.3944620,
+  "lon": 10.3815240,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "707157",
+    "indoor_seating": "yes",
+    "level": "0",
+    "name": "Brød",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "32360408",
+    "ref:DK:cvr:pnummer": "1016018240",
+    "toilets": "no",
+    "website": "https://brød.dk/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4892563353,
+  "lat": 55.0951860,
+  "lon": 10.2428990,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-06-18",
+    "fvst:navnelbnr": "708274",
+    "name": "Cafe Fruens Vilje",
+    "opening_hours": "10:00-17:00",
+    "phone": "+45 63600063",
+    "ref:DK:cvr": "20638680",
+    "ref:DK:cvr:pnummer": "1022334278",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5057755380,
+  "lat": 55.3980950,
+  "lon": 10.3717030,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "80451",
+    "name": "Odense Designakademi",
+    "private": "students",
+    "ref:DK:cvr": "20437383",
+    "ref:DK:cvr:pnummer": "1005150380"
+  }
+},
+{
+  "type": "node",
+  "id": 5299654967,
+  "lat": 55.3960240,
+  "lon": 10.3832210,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "brunch;breakfast",
+    "fvst:navnelbnr": "1488120",
+    "name": "Balance Cafe",
+    "ref:DK:cvr": "45565440",
+    "ref:DK:cvr:pnummer": "1031276310"
+  }
+},
+{
+  "type": "node",
+  "id": 5451348861,
+  "lat": 55.3845860,
+  "lon": 10.3743290,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "794755",
+    "name": "OB Café",
+    "ref:DK:cvr": "62979216",
+    "ref:DK:cvr:pnummer": "1002162302"
+  }
+},
+{
+  "type": "node",
+  "id": 5872995283,
+  "lat": 55.4852872,
+  "lon": 10.2509273,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "760119",
+    "name": "BorgerCafeen",
+    "ref:DK:cvr": "39488671",
+    "ref:DK:cvr:pnummer": "1023525603"
+  }
+},
+{
+  "type": "node",
+  "id": 5938276116,
+  "lat": 55.3962480,
+  "lon": 10.3856760,
+  "tags": {
+    "amenity": "cafe",
+    "drink:wine": "served",
+    "fvst:navnelbnr": "763224",
+    "name": "Sirups bar",
+    "opening_hours": "Mo-Fr 08:00-24:00, Fr-Sa 08:00-02:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "39642409",
+    "ref:DK:cvr:pnummer": "1023701118",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5952621080,
+  "lat": 55.4012530,
+  "lon": 10.3886267,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "2 - Kultur og Fritid Biblioteker",
+    "fvst:navnelbnr": "1445104",
+    "indoor_seating": "yes",
+    "level": "2",
+    "name": "Café Ordet",
+    "old_name": "Café Borgernes Hus",
+    "outdoor_seating": "no",
+    "ref:DK:cvr": "35209115",
+    "ref:DK:cvr:pnummer": "1003316807",
+    "website": "https://www.odensebib.dk/hovedbiblioteket/cafe-ordet-cafeen-i-hjertet-af-borgernes-hus"
+  }
+},
+{
+  "type": "node",
+  "id": 6070910017,
+  "lat": 55.4004199,
+  "lon": 10.3954371,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Odense værkstederne",
+    "fvst:navnelbnr": "768222",
+    "name": "Klare",
+    "ref:DK:cvr": "35209115",
+    "ref:DK:cvr:pnummer": "1003309692",
+    "website": "http://www.cafeklare.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 6700365069,
+  "lat": 55.4064026,
+  "lon": 10.4238152,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "82187",
+    "name": "Cafe Kaptajnen",
+    "private": "students",
+    "ref:DK:cvr": "35228616",
+    "ref:DK:cvr:pnummer": "1009293996"
+  }
+},
+{
+  "type": "node",
+  "id": 6708833724,
+  "lat": 55.3961960,
+  "lon": 10.3807320,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "634328",
+    "name": "Brandts",
+    "phone": "+45 27537056",
+    "ref:DK:cvr": "35134107",
+    "ref:DK:cvr:pnummer": "1018616730",
+    "website": "https://brandts.dk/shop-cafe/"
+  }
+},
+{
+  "type": "node",
+  "id": 6713074681,
+  "lat": 55.3966466,
+  "lon": 10.3814297,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "921401",
+    "name": "Cafe Korn Odense",
+    "opening_hours": "10:00-22:00",
+    "phone": "+45 72515000",
+    "ref:DK:cvr": "37448699",
+    "ref:DK:cvr:pnummer": "1025040666",
+    "website": "https://cafekorn.dk/cafe-korn-odense/"
+  }
+},
+{
+  "type": "node",
+  "id": 6713074682,
+  "lat": 55.4009000,
+  "lon": 10.3954880,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "791042",
+    "name": "Odense Værkstederne Café Klare",
+    "ref:DK:cvr": "35209115",
+    "ref:DK:cvr:pnummer": "1003309692",
+    "website": "https://www.odense.dk/odensevaerkstederne/odense-vaerkstederne/caf%C3%A9-klare"
+  }
+},
+{
+  "type": "node",
+  "id": 7185546720,
+  "lat": 55.0960040,
+  "lon": 10.2402290,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-07-30",
+    "fvst:navnelbnr": "1209824",
+    "name": "Rus & Riller",
+    "phone": "+45 60629345",
+    "ref:DK:cvr": "42981001",
+    "ref:DK:cvr:pnummer": "1027910110"
+  }
+},
+{
+  "type": "node",
+  "id": 7195298644,
+  "lat": 55.4031960,
+  "lon": 10.3711100,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:name": "Compass Group DK 5176 hos Odense Marcipan A/S",
+    "fvst:navnelbnr": "1296060",
+    "name": "Odense Marcipan Kantine",
+    "ref:DK:cvr": "15233699",
+    "ref:DK:cvr:pnummer": "1000885523"
+  }
+},
+{
+  "type": "node",
+  "id": 7195298649,
+  "lat": 55.3930521,
+  "lon": 10.3965163,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "930691",
+    "name": "Analog",
+    "opening_hours": "Mo-We 08:00-16:30; Th,Fr 08:00-17:30; Sa 10:00-15:00",
+    "ref:DK:cvr": "41027126",
+    "ref:DK:cvr:pnummer": "1025355780"
+  }
+},
+{
+  "type": "node",
+  "id": 7204739422,
+  "lat": 55.4422175,
+  "lon": 10.4092188,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:name": "Compass Group DK hos Meneta",
+    "fvst:navnelbnr": "1210586",
+    "name": "Meneta Cafe",
+    "operator": "Compass Group DK",
+    "ref:DK:cvr": "81093628",
+    "ref:DK:cvr:pnummer": "1023636456"
+  }
+},
+{
+  "type": "node",
+  "id": 7206987831,
+  "lat": 55.4676553,
+  "lon": 10.5391504,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "542134",
+    "name": "LIP Lindø Indutstri Park",
+    "ref:DK:cvr": "33824114",
+    "ref:DK:cvr:pnummer": "1001710770"
+  }
+},
+{
+  "type": "node",
+  "id": 7283562714,
+  "lat": 55.4897290,
+  "lon": 10.2486610,
+  "tags": {
+    "alt_name": "Søndersø Sportscafe",
+    "amenity": "cafe",
+    "description": "sports centre cafe",
+    "fvst:navnelbnr": "1447521",
+    "name": "Søndersø Hallens Cafe",
+    "ref:DK:cvr": "41312319",
+    "ref:DK:cvr:pnummer": "1003064222"
+  }
+},
+{
+  "type": "node",
+  "id": 7678595811,
+  "lat": 55.3961560,
+  "lon": 10.3871950,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Starbucks Odense",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "check_date": "2025-03-13",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "941543",
+    "indoor_seating": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00; Su 09:00-18:00",
+    "operator": "Starbucks",
+    "outdoor_seating": "yes",
+    "phone": "+45 23 39 85 75",
+    "ref:DK:cvr": "35954716",
+    "ref:DK:cvr:pnummer": "1025272532",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.com/store-locator/store/61855-296122/odense-vestergrade-vestergade-21-fyn-odense-c-83-5000-dk"
+  }
+},
+{
+  "type": "node",
+  "id": 7685287347,
+  "lat": 55.3962760,
+  "lon": 10.1532000,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "943418",
+    "name": "velas",
+    "ref:DK:cvr": "30869052",
+    "ref:DK:cvr:pnummer": "1025222918"
+  }
+},
+{
+  "type": "node",
+  "id": 7685313060,
+  "lat": 55.0952187,
+  "lon": 10.2427107,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-06-18",
+    "fvst:navnelbnr": "934733",
+    "name": "Cafe Sunshine",
+    "phone": "+45 62611420",
+    "ref:DK:cvr": "27320902",
+    "ref:DK:cvr:pnummer": "1024285649"
+  }
+},
+{
+  "type": "node",
+  "id": 7704626573,
+  "lat": 55.3984654,
+  "lon": 10.3852345,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "944456",
+    "name": "Odense Teater",
+    "ref:DK:cvr": "35059016",
+    "ref:DK:cvr:pnummer": "1003309497"
+  }
+},
+{
+  "type": "node",
+  "id": 7742066770,
+  "lat": 55.1367970,
+  "lon": 10.0178960,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "941815",
+    "name": "Galleri Langager Helnæs",
+    "ref:DK:cvr": "39045656",
+    "ref:DK:cvr:pnummer": "1022969990",
+    "website": "https://www.gallerilangager.dk/cafe/"
+  }
+},
+{
+  "type": "node",
+  "id": 7815946360,
+  "lat": 55.3962130,
+  "lon": 10.3824220,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "sandwich",
+    "fvst:navnelbnr": "1481036",
+    "name": "In Nomine Panis",
+    "ref:DK:cvr": "45412989",
+    "ref:DK:cvr:pnummer": "1031092740"
+  }
+},
+{
+  "type": "node",
+  "id": 7829949612,
+  "lat": 55.3731956,
+  "lon": 10.4084313,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:name": "Compass Group DK 1486 hos Munkebjerg Business Park",
+    "fvst:navnelbnr": "1210712",
+    "name": "Munkebjerg Business Park",
+    "ref:DK:cvr": "81093628",
+    "ref:DK:cvr:pnummer": "1025898865",
+    "website": "https://munkebjergbusinesspark.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 7902632751,
+  "lat": 55.3940401,
+  "lon": 10.3501638,
+  "tags": {
+    "amenity": "cafe",
+    "contact:website": "https://www.bronx5200.dk/",
+    "description": "Bronx is a social house run by volunteers, where you can play, drink a coffé, do or attain a workshop, sew on a sewing maschine, eat commnial dinner, build, read a book etc. Members have access to a freeshop in the basement and lots of materials.",
+    "fvst:navnelbnr": "931372",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Bronx",
+    "opening_hours": "Tu, Th 10:00-16:00; We 10:00-21:00; Su 12:00-16:00",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "40862285",
+    "ref:DK:cvr:pnummer": "1025135985",
+    "shop": "recycling",
+    "website": "https://www.bronx5200.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 8147788359,
+  "lat": 55.4068172,
+  "lon": 10.4411799,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "635384",
+    "name": "Cafe Mosen",
+    "phone:restaurant": "+45 66104900",
+    "ref:DK:cvr": "35357718",
+    "ref:DK:cvr:pnummer": "1018899112"
+  }
+},
+{
+  "type": "node",
+  "id": 8198693259,
+  "lat": 55.3971880,
+  "lon": 10.3929650,
+  "tags": {
+    "amenity": "cafe",
+    "contact:instagram": "cafesoelle",
+    "cuisine": "sandwich",
+    "email": "hej@cafesoelle.dk",
+    "facebook": "https://www.facebook.com/cafesoelle/",
+    "fvst:name": "Cafe Sølle/Koffiboys",
+    "fvst:navnelbnr": "948020",
+    "name": "Cafe Sølle",
+    "opening_hours": "Tu-Fr 10:00-15:00",
+    "phone": "+45 27823047",
+    "ref:DK:cvr": "39190869",
+    "ref:DK:cvr:pnummer": "1025992810",
+    "website": "https://cafesoelle.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 8199084165,
+  "lat": 55.3984237,
+  "lon": 10.3852988,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "961885",
+    "name": "NELLE'S Coffee & Wine",
+    "opening_hours": "08:00-19:00; Sa 09:00-19:00; Su off; Dec 24-26 off; Dec 31 08:30-16:00",
+    "phone": "+45 88973000",
+    "ref:DK:cvr": "41728272",
+    "ref:DK:cvr:pnummer": "1026333268",
+    "website": "https://www.nellesbar.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 8308683916,
+  "lat": 55.3947905,
+  "lon": 10.3813396,
+  "tags": {
+    "alt_name": "Bar' Unika",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1483349",
+    "indoor_seating": "yes",
+    "name": "Café Unika",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "41838442",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8994206876,
+  "lat": 55.4790925,
+  "lon": 10.2613155,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "80628",
+    "name": "Orkla Danmark",
+    "ref:DK:cvr": "14406042",
+    "ref:DK:cvr:pnummer": "1017459364"
+  }
+},
+{
+  "type": "node",
+  "id": 8994206877,
+  "lat": 55.4735318,
+  "lon": 10.3299452,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1516315",
+    "name": "Flyver cafeen",
+    "ref:DK:cvr": "45008061",
+    "ref:DK:cvr:pnummer": "1031734556"
+  }
+},
+{
+  "type": "node",
+  "id": 8994474840,
+  "lat": 55.3748128,
+  "lon": 10.4300217,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "sandwich;salad",
+    "fvst:navnelbnr": "993411",
+    "name": "Cafe Paa mawis",
+    "phone": "+45 66155177",
+    "ref:DK:cvr": "42182613",
+    "ref:DK:cvr:pnummer": "1026873009",
+    "website": "https://paamawis.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 8996518630,
+  "lat": 55.0648241,
+  "lon": 10.6136837,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "tapas",
+    "facebook": "https://www.facebook.com/p/105-bar-k%C3%B8kken-100070169660181/",
+    "fvst:navnelbnr": "1466475",
+    "name": "Bar 105",
+    "phone": "+45 40540767",
+    "ref:DK:cvr": "45172236",
+    "ref:DK:cvr:pnummer": "1030787532",
+    "website": "https://www.bar105.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 9002108166,
+  "lat": 55.4946787,
+  "lon": 9.9563362,
+  "tags": {
+    "amenity": "cafe",
+    "diet:organic": "yes",
+    "fvst:navnelbnr": "714369",
+    "name": "BrenderupHus",
+    "opening_hours": "10:00-17:30; Sa 10:00-14:00; Su off",
+    "phone": "+45 64 44 20 10",
+    "ref:DK:cvr": "38867644",
+    "ref:DK:cvr:pnummer": "1022760293",
+    "shop": "deli",
+    "website": "https://brenderuphus.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 9033489996,
+  "lat": 55.3919515,
+  "lon": 9.9378522,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "982748",
+    "name": "Carl Hansen og Søn møbelfabrik",
+    "ref:DK:cvr": "26236231",
+    "ref:DK:cvr:pnummer": "1019601451"
+  }
+},
+{
+  "type": "node",
+  "id": 9057397745,
+  "lat": 55.3646719,
+  "lon": 10.4088285,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1014320",
+    "name": "Kold College Kantine",
+    "ref:DK:cvr": "86572028",
+    "ref:DK:cvr:pnummer": "1003401316"
+  }
+},
+{
+  "type": "node",
+  "id": 9057397747,
+  "lat": 55.4180480,
+  "lon": 10.4272640,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "donut",
+    "fvst:navnelbnr": "945505",
+    "name": "Coffee & Donuts",
+    "ref:DK:cvr": "32962726",
+    "ref:DK:cvr:pnummer": "1025645967"
+  }
+},
+{
+  "type": "node",
+  "id": 9153366883,
+  "lat": 55.3980719,
+  "lon": 10.3899165,
+  "tags": {
+    "amenity": "cafe",
+    "diet:gluten_free": "yes",
+    "fvst:navnelbnr": "1276216",
+    "indoor_seating": "yes",
+    "name": "Deilig",
+    "opening_hours": "Tu-Th 10:00-16:00; Fr 10:00-22:00; Sa 09:00-22:00; Su 09:00-16:00",
+    "outdoor_seating": "yes",
+    "phone": "+45 60174189",
+    "ref:DK:cvr": "43703919",
+    "ref:DK:cvr:pnummer": "1028831079",
+    "website": "https://www.deilig.dk/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9238448137,
+  "lat": 55.3748463,
+  "lon": 10.0507746,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1112242",
+    "name": "Cafe Aftersport",
+    "phone": "+45 60 17 21 05",
+    "ref:DK:cvr": "36081422"
+  }
+},
+{
+  "type": "node",
+  "id": 9251423062,
+  "lat": 55.5674598,
+  "lon": 10.0803635,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "ice_cream;beer;coffe",
+    "fvst:navnelbnr": "658443",
+    "name": "Havnens Isbar & Café",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "37790184",
+    "ref:DK:cvr:pnummer": "1021501596"
+  }
+},
+{
+  "type": "node",
+  "id": 9270832988,
+  "lat": 55.3961192,
+  "lon": 10.3831675,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "pie",
+    "diet:vegetarian": "yes",
+    "fvst:navnelbnr": "1013685",
+    "name": "The Pie Project",
+    "phone": "+45 50108950",
+    "ref:DK:cvr": "42568783",
+    "ref:DK:cvr:pnummer": "1027401356",
+    "website": "https://thepieproject.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 9288257165,
+  "lat": 55.3822221,
+  "lon": 10.1217180,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "991766",
+    "name": "Orchid Farm Village",
+    "ref:DK:cvr": "42296902",
+    "ref:DK:cvr:pnummer": "1027037867",
+    "shop": "farm"
+  }
+},
+{
+  "type": "node",
+  "id": 9546088337,
+  "lat": 55.4103550,
+  "lon": 10.3676362,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1210724",
+    "name": "Compass Group DK 5104 hos Envases Europe",
+    "private": "employees",
+    "ref:DK:cvr": "81093628",
+    "ref:DK:cvr:pnummer": "1018970224"
+  }
+},
+{
+  "type": "node",
+  "id": 9649245626,
+  "lat": 55.3385739,
+  "lon": 9.9648397,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1220922",
+    "name": "Tee Time",
+    "ref:DK:cvr": "29507929",
+    "ref:DK:cvr:pnummer": "1012295037",
+    "seasonal": "summer",
+    "website": "http://bbgolf.dk/gaester/overnatning"
+  }
+},
+{
+  "type": "node",
+  "id": 9735906595,
+  "lat": 55.4558304,
+  "lon": 10.6620210,
+  "tags": {
+    "amenity": "cafe",
+    "fee": "no",
+    "fvst:navnelbnr": "80493",
+    "indoor_seating": "yes",
+    "name": "Kaffehuset",
+    "operator": "Johannes Larsen Museet",
+    "outdoor_seating": "yes",
+    "website": "https://johanneslarsenmuseet.dk/kaffehuset/"
+  }
+},
+{
+  "type": "node",
+  "id": 10771069679,
+  "lat": 55.0955022,
+  "lon": 10.2392068,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1215233",
+    "indoor_seating": "no",
+    "name": "Café Kaj",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "42235849",
+    "ref:DK:cvr:pnummer": "1026944283",
+    "seasonal": "summer"
+  }
+},
+{
+  "type": "node",
+  "id": 10784736313,
+  "lat": 55.5134176,
+  "lon": 10.3979331,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1236942",
+    "name": "Byens Iscafe",
+    "ref:DK:cvr": "43159895",
+    "ref:DK:cvr:pnummer": "1028128343"
+  }
+},
+{
+  "type": "node",
+  "id": 10802573884,
+  "lat": 55.3993369,
+  "lon": 10.3902334,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "description": "With babies",
+    "fvst:navnelbnr": "1229119",
+    "name": "Små Stjernestunder",
+    "phone": "+45 81637391",
+    "ref:DK:cvr": "42894524",
+    "ref:DK:cvr:pnummer": "1027801036",
+    "website": "https://www.smaa-stjernestunder.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 10817020723,
+  "lat": 55.5070877,
+  "lon": 10.3949803,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1275546",
+    "name": "Bielers Gourmet",
+    "ref:DK:cvr": "43780085",
+    "ref:DK:cvr:pnummer": "1028930883",
+    "website": "https://www.bielers.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 10819828314,
+  "lat": 55.2700869,
+  "lon": 9.8952325,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1396957",
+    "name": "Grandts Kaffebar",
+    "ref:DK:cvr": "38715348",
+    "ref:DK:cvr:pnummer": "1029616228"
+  }
+},
+{
+  "type": "node",
+  "id": 10838396935,
+  "lat": 55.4400118,
+  "lon": 9.8241126,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1350912",
+    "name": "Cafe Ronæs",
+    "ref:DK:cvr": "44075792",
+    "ref:DK:cvr:pnummer": "1029477546",
+    "seasonal": "summer"
+  }
+},
+{
+  "type": "node",
+  "id": 10838396954,
+  "lat": 55.4900668,
+  "lon": 10.2430235,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:name": "Søndersø Sportscafe - NG",
+    "fvst:navnelbnr": "1260353",
+    "name": "Søndersø Sportscafe",
+    "opening_hours": "16:00-21:00; We 16:00-23:00; Th 16:00-21:00; Fr 16:00-20:00; Sa-Su off",
+    "ref:DK:cvr": "10521289",
+    "ref:DK:cvr:pnummer": "1014425590",
+    "website": "https://www.sondersosportscafe.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 10916041626,
+  "lat": 55.3980571,
+  "lon": 10.3960115,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;indian;thai;sci_lankan;italian",
+    "fvst:navnelbnr": "1284382",
+    "name": "Gourmet Værkstedet",
+    "opening_hours": "16:30-22:00; Th-Sa 16:30-24:00; Tu off",
+    "phone": "+45 24999111",
+    "ref:DK:cvr": "43731564",
+    "ref:DK:cvr:pnummer": "1028866131",
+    "website": "https://gourmetvaerkstedet.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 11078069418,
+  "lat": 55.4025369,
+  "lon": 10.3866114,
+  "tags": {
+    "alt_name": "TFS Danmarks Jernbanemuseum",
+    "amenity": "cafe",
+    "changing_table": "no",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1391877",
+    "indoor_seating": "yes",
+    "level": "1",
+    "name": "Danmarks Jernbanemuseum Café",
+    "opening_hours": "Sa,Su 10:00-15:30",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "35530517",
+    "ref:DK:cvr:pnummer": "1018896040",
+    "toilets": "no",
+    "website": "https://www.jernbanemuseet.dk/besoeg/faciliteter/#Caf%C3%A9",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11806982812,
+  "lat": 55.3743016,
+  "lon": 10.4296115,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1423219",
+    "name": "DDLs Café hos Syddanske Forskerparker Videnbyen",
+    "ref:DK:cvr": "43661590",
+    "ref:DK:cvr:pnummer": "1030225852"
+  }
+},
+{
+  "type": "node",
+  "id": 11844620540,
+  "lat": 55.3981147,
+  "lon": 10.3963914,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1392734",
+    "name": "Cafe Carlos & Diegos",
+    "ref:DK:cvr": "41478241",
+    "ref:DK:cvr:pnummer": "1025984834"
+  }
+},
+{
+  "type": "node",
+  "id": 11848550793,
+  "lat": 55.3979461,
+  "lon": 10.3805024,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "burger",
+    "fvst:navnelbnr": "1411561",
+    "name": "Cafe Kongensgade",
+    "ref:DK:cvr": "42187496",
+    "ref:DK:cvr:pnummer": "1030027023",
+    "website": "https://www.cafekongensgade.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 11872667602,
+  "lat": 55.2665718,
+  "lon": 10.3177763,
+  "tags": {
+    "access": "private",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1361883",
+    "internet_access": "wlan",
+    "name": "Cafe G.",
+    "ref:DK:cvr": "30632990",
+    "ref:DK:cvr:pnummer": "1029639384"
+  }
+},
+{
+  "type": "node",
+  "id": 11942934199,
+  "lat": 55.3830180,
+  "lon": 10.4279128,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1426808",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref:DK:cvr": "35954716",
+    "ref:DK:cvr:pnummer": "1030116867",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12710786253,
+  "lat": 55.3972038,
+  "lon": 10.3925190,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-22",
+    "contact:facebook": "https://www.facebook.com/StudieStuen/",
+    "cuisine": "coffee_shop",
+    "description": "Book cafe for students",
+    "email": "studiestuen@gmail.com",
+    "name": "StudieStuen",
+    "phone": "+4520329904",
+    "ref:DK:cvr": "33533705",
+    "ref:DK:cvr:pnummer": "1029093837",
+    "wikidata": "Q65552587"
+  }
+},
+{
+  "type": "node",
+  "id": 12736516688,
+  "lat": 55.3950492,
+  "lon": 10.3832330,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1450301",
+    "name": "The Folk",
+    "ref:DK:cvr": "44373165",
+    "website": "https://thefolk.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12833554881,
+  "lat": 55.4183156,
+  "lon": 10.3776948,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1475400",
+    "name": "Café LUMI",
+    "phone": "+45 22187474",
+    "ref:DK:cvr": "45427560",
+    "ref:DK:cvr:pnummer": "1031110293",
+    "shop": "candles",
+    "website": "http://cafelumi.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12833934761,
+  "lat": 55.3486096,
+  "lon": 10.1803542,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1510103",
+    "name": "Cafe Noelle",
+    "ref:DK:cvr": "46028449",
+    "ref:DK:cvr:pnummer": "1031858948"
+  }
+},
+{
+  "type": "node",
+  "id": 12843857594,
+  "lat": 55.1535417,
+  "lon": 10.1488993,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1466226",
+    "name": "galleriverket",
+    "opening_hours": "Th-Su 11:00-17:00",
+    "ref:DK:cvr": "44566532",
+    "ref:DK:cvr:pnummer": "1030007987",
+    "shop": "interior_decoration",
+    "website": "https://galleriverket.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12843857595,
+  "lat": 55.1294162,
+  "lon": 10.2179590,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1449190",
+    "name": "Svanninge Hallens Cafe",
+    "ref:DK:cvr": "44702207",
+    "ref:DK:cvr:pnummer": "1030192202"
+  }
+},
+{
+  "type": "node",
+  "id": 12843857597,
+  "lat": 55.0950545,
+  "lon": 10.2436087,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "facebook": "https://www.facebook.com/people/Is-Caf%C3%A9en-B%C3%B8jestr%C3%A6de/61574809004551/",
+    "fvst:navnelbnr": "1478995",
+    "name": "Is Caféen Bøjestræde",
+    "opening_hours": "14:00-20:00;Sa-Su 11:00-20:00",
+    "ref:DK:cvr": "45489264",
+    "ref:DK:cvr:pnummer": "1031184459"
+  }
+},
+{
+  "type": "node",
+  "id": 12869271600,
+  "lat": 55.5684832,
+  "lon": 10.0801010,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1472939",
+    "name": "LUNDS by MøBer",
+    "ref:DK:cvr": "41078405",
+    "ref:DK:cvr:pnummer": "1030943399",
+    "website": "https://lundshotel.dk/cafe-lunds-moeber"
+  }
+},
+{
+  "type": "node",
+  "id": 12869315902,
+  "lat": 55.5621089,
+  "lon": 10.0987617,
+  "tags": {
+    "alt_name": "Bogense Hallernes Cafeteria",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1518445",
+    "name": "Cafe SilleMad",
+    "ref:DK:cvr": "46246071",
+    "ref:DK:cvr:pnummer": "1032120039"
+  }
+},
+{
+  "type": "node",
+  "id": 12879450714,
+  "lat": 55.2368490,
+  "lon": 10.4800458,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-06-01",
+    "cuisine": "sandwich",
+    "facebook": "https://www.facebook.com/profile.php/?id=100083583870026",
+    "fvst:navnelbnr": "1450966",
+    "indoor_seating": "yes",
+    "name": "Mivi'si",
+    "opening_hours": "Tu-Sa 10:00-21:00; Su 10:00-15:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "ref:DK:cvr": "44717514",
+    "ref:DK:cvr:pnummer": "1030207528",
+    "website": "https://mivifood.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12879859822,
+  "lat": 55.3839978,
+  "lon": 10.4259736,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "cuisine": "tea",
+    "fvst:navnelbnr": "1426961",
+    "name": "Hân Bubble Tea",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref:DK:cvr": "42295256",
+    "ref:DK:cvr:pnummer": "1027011213",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12893808584,
+  "lat": 55.3684755,
+  "lon": 10.4281810,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1460803",
+    "name": "4050 SDU - Near by Coffee 2",
+    "ref:DK:cvr": "24997189",
+    "ref:DK:cvr:pnummer": "1030861619"
+  }
+},
+{
+  "type": "node",
+  "id": 12893808585,
+  "lat": 55.3685464,
+  "lon": 10.4281783,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1460801",
+    "name": "4050 SDU - Near By Coffee 1",
+    "ref:DK:cvr": "24997189",
+    "ref:DK:cvr:pnummer": "1030861619"
+  }
+},
+{
+  "type": "node",
+  "id": 12897053220,
+  "lat": 55.0948432,
+  "lon": 10.2421726,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "baked_potato",
+    "facebook": "https://www.facebook.com/61573070390499/about/",
+    "fvst:navnelbnr": "1483423",
+    "name": "Ikosda",
+    "ref:DK:cvr": "39576813"
+  }
+},
+{
+  "type": "node",
+  "id": 12903523301,
+  "lat": 55.3776794,
+  "lon": 10.3719544,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1444648",
+    "name": "Café Søløven",
+    "ref:DK:cvr": "12610572",
+    "ref:DK:cvr:pnummer": "1003316157"
+  }
+},
+{
+  "type": "node",
+  "id": 12909415343,
+  "lat": 55.4134892,
+  "lon": 10.4128550,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/people/Caf%C3%A9-kollektivet/61572294655940/",
+    "fvst:navnelbnr": "1475039",
+    "name": "Café Kollektivet",
+    "ref:DK:cvr": "42807966",
+    "ref:DK:cvr:pnummer": "1027694159"
+  }
+},
+{
+  "type": "node",
+  "id": 12909415346,
+  "lat": 55.4062092,
+  "lon": 10.3883960,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "email": "kontakt@kaffevaerket.dk",
+    "fvst:navnelbnr": "1447898",
+    "name": "Kaffeværket",
+    "opening_hours": "08:00-17:00;Sa-Su 10:00-17:00",
+    "phone": "+45 22805332",
+    "ref:DK:cvr": "44456001",
+    "ref:DK:cvr:pnummer": "1029950780",
+    "website": "https://kaffevaerket.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12909415348,
+  "lat": 55.3952724,
+  "lon": 10.3829956,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "facebook": "https://www.facebook.com/people/LABAN-Kaffebar/61560846622320/",
+    "fvst:navnelbnr": "1432173",
+    "name": "LABAN kaffebar",
+    "ref:DK:cvr": "44752212",
+    "ref:DK:cvr:pnummer": "1030293742"
+  }
+},
+{
+  "type": "node",
+  "id": 12909440346,
+  "lat": 55.4094436,
+  "lon": 10.3389167,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1443805",
+    "name": "HappyHouse",
+    "ref:DK:cvr": "42187496",
+    "ref:DK:cvr:pnummer": "1030399729",
+    "website": "https://hhdk.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 12909855251,
+  "lat": 55.3984025,
+  "lon": 10.3882226,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/people/Oplandet/61575177540293/",
+    "fvst:navnelbnr": "1482749",
+    "name": "oplandet",
+    "ref:DK:cvr": "40478558"
+  }
+},
+{
+  "type": "node",
+  "id": 12909855252,
+  "lat": 55.3946882,
+  "lon": 10.3807030,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1466208",
+    "name": "studio ellil",
+    "ref:DK:cvr": "20381035",
+    "ref:DK:cvr:pnummer": "1030989763",
+    "shop": "interior_decoration"
+  }
+},
+{
+  "type": "node",
+  "id": 12911229577,
+  "lat": 55.3744492,
+  "lon": 10.3516090,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1361174",
+    "name": "Vaskehuset",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "44278243",
+    "ref:DK:cvr:pnummer": "1029605374",
+    "website": "https://www.fvb-odense.dk/planlaeg-dit-besoeg/mad-og-drikke/cafe-vaskehuset/"
+  }
+},
+{
+  "type": "node",
+  "id": 12911586577,
+  "lat": 55.3671481,
+  "lon": 10.3842946,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/hoeghscafe.dk/",
+    "fvst:navnelbnr": "82142",
+    "name": "Høeghs Cafe Den Fynske Landsby",
+    "ref:DK:cvr": "28913737",
+    "ref:DK:cvr:pnummer": "1017762113"
+  }
+},
+{
+  "type": "node",
+  "id": 12921710596,
+  "lat": 55.5091347,
+  "lon": 10.7120934,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1479854",
+    "name": "Pool og Strand Cafe by Bummii",
+    "ref:DK:cvr": "43337432",
+    "ref:DK:cvr:pnummer": "1029425457",
+    "seasonal": "yes",
+    "website": "https://bummiithaimad.dk/%C3%A5bningstider1"
+  }
+},
+{
+  "type": "node",
+  "id": 12921710600,
+  "lat": 55.5405831,
+  "lon": 10.6688485,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1447461",
+    "name": "Fridalund Café",
+    "opening_hours": "May-Aug",
+    "ref:DK:cvr": "36354607",
+    "ref:DK:cvr:pnummer": "1023224530",
+    "seasonal": "yes",
+    "website": "https://fridalund.dk/cafe/"
+  }
+},
+{
+  "type": "node",
+  "id": 13005206776,
+  "lat": 55.5664772,
+  "lon": 10.0844511,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1482044",
+    "name": "Café Den Gamle Havn",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "45545253",
+    "ref:DK:cvr:pnummer": "1031253329"
+  }
+},
+{
+  "type": "node",
+  "id": 13006539827,
+  "lat": 55.5653989,
+  "lon": 10.0907078,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/people/Dansende-Bj%C3%B8rne/61575143432826/",
+    "fvst:navnelbnr": "1479164",
+    "name": "Fællesskabs Butik Dansende Bjørne",
+    "ref:DK:cvr": "19439577",
+    "ref:DK:cvr:pnummer": "1031141482",
+    "shop": "interior_decoration"
+  }
+},
+{
+  "type": "node",
+  "id": 13006539840,
+  "lat": 55.3956523,
+  "lon": 10.3812267,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1482351",
+    "name": "Kunstnær",
+    "phone": "+45 30424228",
+    "ref:DK:cvr": "45514994",
+    "shop": "art",
+    "website": "https://www.kunstnaer.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 13046166567,
+  "lat": 55.3820658,
+  "lon": 10.4269060,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Rosengårdscentret",
+    "fvst:navnelbnr": "1484480",
+    "level": "0",
+    "name": "Cafe A",
+    "opening_hours": "Tu-Sa 10:00-21:00; Su-Mo 10:00-20:00",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "ref:DK:cvr": "43790226",
+    "ref:DK:cvr:pnummer": "1031214528",
+    "website": "https://www.cafe-a.dk/odense/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13065620160,
+  "lat": 55.0947410,
+  "lon": 10.2455767,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1489551",
+    "indoor_seating": "yes",
+    "name": "Cafe Himmelblå",
+    "outdoor_seating": "yes",
+    "ref:DK:cvr": "12141475"
+  }
+},
+{
+  "type": "node",
+  "id": 13065620175,
+  "lat": 55.2234602,
+  "lon": 10.1209140,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "facebook": "https://www.facebook.com/profile.php?id=61575652007074",
+    "fvst:navnelbnr": "1491535",
+    "name": "kaffebar og keramik",
+    "ref:DK:cvr": "29900345",
+    "ref:DK:cvr:pnummer": "1031555880",
+    "shop": "pottery"
+  }
+},
+{
+  "type": "node",
+  "id": 13065748246,
+  "lat": 55.3123251,
+  "lon": 10.0923728,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;sandwich",
+    "drink:beer": "served",
+    "fvst:navnelbnr": "79796",
+    "indoor_seating": "yes",
+    "name": "Hørvævsmuseets Cafeteria",
+    "ref:DK:cvr": "17067494",
+    "ref:DK:cvr:pnummer": "1001215661",
+    "website": "https://hoervaevsmuseet.dk/besoeg-os/"
+  }
+},
+{
+  "type": "node",
+  "id": 13067738436,
+  "lat": 55.4419327,
+  "lon": 10.1901048,
+  "tags": {
+    "amenity": "cafe",
+    "description": "sportshal cafeteria",
+    "fvst:navnelbnr": "1491171",
+    "name": "Café Langesø Hallerne",
+    "ref:DK:cvr": "34314632",
+    "ref:DK:cvr:pnummer": "1031385276",
+    "website": "https://www.langesoehallerne.dk/cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13071697545,
+  "lat": 55.3527694,
+  "lon": 10.4204306,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1490245",
+    "name": "Clever Cafe Odense",
+    "opening_hours": "07:00-19:00; Sa-Su 08:00-19:00",
+    "operator": "Clever",
+    "ref:DK:cvr": "10683548",
+    "ref:DK:cvr:pnummer": "1031403738"
+  }
+},
+{
+  "type": "node",
+  "id": 13147835557,
+  "lat": 55.3946917,
+  "lon": 10.3816127,
+  "tags": {
+    "alt_name": "Unika Living",
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1482422",
+    "name": "Bar Unika",
+    "opening_hours": "09:00-18:00;Su 09:00-16:00",
+    "phone": "+45 27832553",
+    "ref:DK:cvr": "40238662",
+    "website": "https://barunika.dk/"
+  }
+},
+{
+  "type": "node",
+  "id": 13147835558,
+  "lat": 55.3943389,
+  "lon": 10.3936273,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/profile.php?id=61578898472865",
+    "fvst:navnelbnr": "1491325",
+    "name": "Nær - café & mikrobageri",
+    "ref:DK:cvr": "45517748",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 13457997070,
+  "lat": 55.3962824,
+  "lon": 10.3826794,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Odense",
+    "brand": "Spilcaféen",
+    "brand:website": "https://spilcafeen.dk/",
+    "cafe": "board_game",
+    "cuisine": "coffee_shop",
+    "fvst:navnelbnr": "1506783",
+    "name": "Spilcaféen Odense",
+    "opening_hours": "12:00-23:00,Th 12:00-24:00,Fr-Sa 12:00-01:00,Su 12:00-22:00",
+    "ref:DK:cvr": "37354244",
+    "ref:DK:cvr:pnummer": "1031642767"
+  }
+},
+{
+  "type": "node",
+  "id": 13592550821,
+  "lat": 55.3974650,
+  "lon": 10.3918355,
+  "tags": {
+    "amenity": "cafe",
+    "facebook": "https://www.facebook.com/Cafenaer",
+    "fvst:navnelbnr": "1517070",
+    "name": "Nær Mikrobageri",
+    "ref:DK:cvr": "45517748",
+    "ref:DK:cvr:pnummer": "1032067405"
+  }
+},
+{
+  "type": "node",
+  "id": 13619040419,
+  "lat": 55.2627642,
+  "lon": 9.9086467,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "smørrebrød",
+    "facebook": "https://www.facebook.com/p/Glow-DetDet-100057617649534/",
+    "fvst:navnelbnr": "1518287",
+    "name": "Glow DetDet",
+    "ref:DK:cvr": "36404078",
+    "ref:DK:cvr:pnummer": "1031776828"
+  }
+},
+{
+  "type": "node",
+  "id": 13694166429,
+  "lat": 55.3946373,
+  "lon": 10.3807353,
+  "tags": {
+    "amenity": "cafe",
+    "fvst:navnelbnr": "1514338",
+    "name": "Forno",
+    "ref:DK:cvr": "45815110",
+    "website": "https://www.fornocafe.dk/"
+  }
+}
+
+  ]
+}
