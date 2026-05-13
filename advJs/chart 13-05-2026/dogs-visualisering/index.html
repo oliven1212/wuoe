@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dogs-visualisering</title>
+</head>
+
+<body>
+  <h1>Spil 1995–2019</h1>
+  <input type="file" id="fileInput" accept=".csv" />
+  <p id="status">Upload Excel-filen for at komme i gang.</p>
+
+  <select id="chartSelect" style="display: none;">
+    <option value="gender">Dogs by gender</option>
+  </select>
+
+  <canvas id="myChart" style="max-width: 800px;"></canvas>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
